@@ -21,15 +21,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='fr' suppressHydrationWarning>
-      <head>
-        <link
-          rel='stylesheet'
-          href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css'
-        />
-      </head>
-      <body className={montserrat.className}>
+      <head></head>
+      <body className={montserrat.className + " flex flex-col min-h-screen"}>
         <Header />
-        <main className='pt-16'> {children}</main>
+        <main className='flex justify-center items-center pt-16 flex-1 w-full'>
+          {" "}
+          {children}
+        </main>
         <Footer />
       </body>
     </html>

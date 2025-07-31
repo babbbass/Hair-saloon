@@ -17,6 +17,7 @@ const menuLinks = [
   { name: "Services", href: "/services" },
   { name: "Galerie", href: "/gallery" },
   { name: "Contact", href: "/contact" },
+  { name: "Reservez maintenant", href: "/reserver-prestation" },
 ]
 
 export function Header() {
@@ -25,8 +26,9 @@ export function Header() {
   return (
     <header className='fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm shadow-sm'>
       <div className='container mx-auto flex h-16 items-center justify-between px-4'>
-        <Link href='/' className='text-2xl font-bold'>
-          NEF HAIR DYDY
+        <Link href='/' className='text-xl font-bold'>
+          <span className='text-red-700'>NEF</span>
+          <span className='text-green-800'>HAIRDYDY</span>
         </Link>
 
         {/* Desktop Navigation */}
@@ -35,10 +37,12 @@ export function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className={`text-sm font-medium transition-colors hover:text-primary ${
-                pathname === link.href
-                  ? "text-primary"
-                  : "text-muted-foreground"
+              className={`text-sm p-2 font-semibold transition-colors hover:text-red-700 ${
+                pathname === link.href ? "text-red-700" : "text-primary"
+              } ${
+                link.href === "/reserver-prestation"
+                  ? "bg-red-700 text-slate-50"
+                  : ""
               }`}
             >
               {link.name}
@@ -63,7 +67,9 @@ export function Header() {
                       href={link.href}
                       className={`transition-colors hover:text-primary ${
                         pathname === link.href
-                          ? "text-primary"
+                          ? link.href === "/reserver-prestation"
+                            ? "bg-red-700 text-slate-50"
+                            : "text-red-700"
                           : "text-muted-foreground"
                       }`}
                     >
