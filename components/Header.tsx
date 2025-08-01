@@ -17,6 +17,7 @@ const menuLinks = [
   { name: "Services", href: "/services" },
   { name: "Galerie", href: "/gallery" },
   { name: "Contact", href: "/contact" },
+  { name: "Tarifs", href: "/tarifs" },
   { name: "Reservez maintenant", href: "/reserver-prestation" },
 ]
 
@@ -41,7 +42,7 @@ export function Header() {
                 pathname === link.href ? "text-red-700" : "text-primary"
               } ${
                 link.href === "/reserver-prestation"
-                  ? "bg-red-700 text-slate-50"
+                  ? "bg-red-700 text-slate-50 hover:text-slate-50/80"
                   : ""
               }`}
             >
