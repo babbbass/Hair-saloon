@@ -11,7 +11,13 @@ module.exports = {
         protocol: "https",
         hostname: "images.unsplash.com",
         port: "",
-        pathname: "/photo-1522337360788-8b13dee*", // ou '/**' pour tout autoriser
+        pathname: "/photo-1522337360788-8b13dee*",
+      },
+      {
+        protocol: "https",
+        hostname: "www.nefhairdydy.com",
+        port: "",
+        pathname: "/**",
       },
     ],
   },
