@@ -7,6 +7,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
+import { ServiceCard } from "@/components/ServiceCard"
 
 import Link from "next/link"
 
@@ -162,13 +163,57 @@ export default function page() {
             Prestations express
           </h3>
 
-          {/* Grille responsive qui utilise le composant ServiceCard
           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8'>
-            {servicesData.map((service) => (
-              <>{service.href}</>
-              // <ServiceCard key={service.href} service={service} />
-            ))}
-          </div> */}
+            <ServiceCard
+              href='/'
+              imageUrl='https://www.nefhairdydy.com/wp-content/uploads/2024/11/nefhairdydy-prestation-enfant-03.jpeg'
+              imageAlt={`Rituel "Spécial Enfant"`}
+              title={`Rituel "Spécial Enfant" (à partir de 7 ans)`}
+              description='Dédié aux enfants'
+              price='70€'
+            />
+            <ServiceCard
+              href='/'
+              imageUrl='https://www.nefhairdydy.com/wp-content/uploads/2023/10/IMG_0165-scaled-2-2048x1750.jpg'
+              imageAlt="Arriere plan d'un salon de coiffure"
+              title={`Rituel "Découverte" (Soin classique 1er Rdv)`}
+              description='Coaching en presentaill et en ligne'
+              price='110€'
+            />
+
+            <ServiceCard
+              href='/'
+              imageUrl='https://www.nefhairdydy.com/wp-content/uploads/2023/10/IMG_8949-e1697107459184.jpg'
+              imageAlt="Arriere plan d'un salon de coiffure"
+              title='Rituel "Soin Exfoliant/Relaxant" (Pellicules et Desquamations)'
+              description='Coaching en presentaill et en ligne'
+              price='125€'
+            />
+            <ServiceCard
+              href='/'
+              imageUrl='https://www.nefhairdydy.com/wp-content/uploads/2023/10/Modele-Coupes-NefHairDydy-29.jpg'
+              imageAlt="Arriere plan d'un salon de coiffure"
+              title='Rituel "Soin Suprême Vapeur" - Coupe des pointes'
+              description='Coaching en presentaill et en ligne'
+              price='145€'
+            />
+            <ServiceCard
+              href='/'
+              imageUrl='https://www.nefhairdydy.com/wp-content/uploads/2023/10/Modele-Coupes-NefHairDydy-1.jpg'
+              imageAlt="Arriere plan d'un salon de coiffure"
+              title={`Rituel “Retour au Naturel” (Bigchop)`}
+              description='Coaching en presentaill et en ligne'
+              price='150€'
+            />
+            <ServiceCard
+              href='/'
+              imageUrl='https://www.nefhairdydy.com/wp-content/uploads/2023/10/Modele-Coupes-NefHairDydy-24.jpg'
+              imageAlt="Arriere plan d'un salon de coiffure"
+              title={`Rituel "Soin Exfoliant/Relaxant"`}
+              description='Coaching en presentaill et en ligne'
+              price='180€'
+            />
+          </div>
         </div>
       </div>
     </section>

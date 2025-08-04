@@ -1,7 +1,5 @@
 import Image from "next/image"
 import Link from "next/link"
-import { ArrowRight } from "lucide-react"
-
 import { Card } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 
@@ -10,8 +8,8 @@ type ServiceCardProps = {
   imageUrl: string
   imageAlt: string
   title: string
-  description: string
   price: string
+  description: string
 }
 
 export function ServiceCard({
@@ -19,38 +17,42 @@ export function ServiceCard({
   imageUrl,
   imageAlt,
   title,
-  description,
   price,
+  description,
 }: ServiceCardProps) {
   return (
-    <Link
-      href={href}
-      className='group block'
-      aria-label={`Voir les détails pour ${title}`}
-    >
-      <Card className='flex flex-col sm:flex-row items-center p-4 transition-all duration-300 group-hover:shadow-xl group-hover:border-primary/50 overflow-hidden'>
-        <div className='relative w-full h-48 sm:w-32 sm:h-32 md:w-40 md:h-40 flex-shrink-0 mb-4 sm:mb-0 sm:mr-6'>
-          <Image
-            src={imageUrl}
-            alt={imageAlt}
-            fill
-            sizes='(max-width: 640px) 100vw, 160px'
-            className='rounded-md object-cover'
-          />
-        </div>
+    <Link href={href} passHref legacyBehavior>
+      <a className='group block h-full'>
+        <Card className='flex h-full flex-col overflow-hidden transition-all duration-300 ease-in-out group-hover:shadow-xl group-hover:-translate-y-1'>
+          <div className='relative w-full aspect-[3/4] overflow-hidden'>
+            <Image
+              src={imageUrl}
+              alt={imageAlt}
+              fill
+              className='object-cover transition-transform duration-300 group-hover:scale-105'
+              sizes='(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw'
+            />
+          </div>
 
-        <div className='flex-grow text-center sm:text-left'>
-          <h3 className='text-xl font-bold'>{title}</h3>
-          <p className='text-sm text-muted-foreground mt-1'>{description}</p>
-        </div>
+          <div className='flex flex-grow flex-col p-4'>
+            <div className='flex-grow'>
+              <h4 className='text-lg font-bold leading-snug text-gray-900'>
+                {title}
+              </h4>
+              <p className='mt-1 text-sm text-gray-600'>{description}</p>
+            </div>
 
-        <div className='flex items-center mt-4 sm:mt-0 sm:ml-6 flex-shrink-0'>
-          <Badge variant='secondary' className='text-xl font-bold py-2 px-4'>
-            {price}
-          </Badge>
-          <ArrowRight className='h-6 w-6 text-muted-foreground ml-6 transition-transform duration-300 group-hover:translate-x-1' />
-        </div>
-      </Card>
+            <div className='mt-4 flex items-baseline justify-between border-t pt-4'>
+              <Badge
+                variant='secondary'
+                className='text-xl font-bold py-2 px-4 bg-red-600 text-slate-50 rounded-2xl'
+              >
+                {price}
+              </Badge>
+            </div>
+          </div>
+        </Card>
+      </a>
     </Link>
   )
 }

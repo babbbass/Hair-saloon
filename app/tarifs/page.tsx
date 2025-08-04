@@ -1,4 +1,4 @@
-import { ServiceCard } from "@/components/ServiceCard"
+import { RateCard } from "@/components/RateCard"
 
 export default function TarifsPage() {
   return (
@@ -38,7 +38,7 @@ export default function TarifsPage() {
         Rituels coiffure
       </h3>
       <section className='grid gap-8 md:grid-cols-2'>
-        <ServiceCard
+        <RateCard
           href='/'
           imageUrl='https://images.unsplash.com/photo-1522337360788-8b13dee7a37e'
           imageAlt="Arriere plan d'un salon de coiffure"
@@ -46,7 +46,7 @@ export default function TarifsPage() {
           description='Coaching en presentaill et en ligne'
           price='70€'
         />
-        <ServiceCard
+        <RateCard
           href='/'
           imageUrl='https://images.unsplash.com/photo-1522337360788-8b13dee7a37e'
           imageAlt="Arriere plan d'un salon de coiffure"
@@ -54,7 +54,7 @@ export default function TarifsPage() {
           description='Coaching en presentaill et en ligne'
           price='110€'
         />
-        <ServiceCard
+        <RateCard
           href='/'
           imageUrl='https://images.unsplash.com/photo-1522337360788-8b13dee7a37e'
           imageAlt="Arriere plan d'un salon de coiffure"
@@ -62,7 +62,7 @@ export default function TarifsPage() {
           description='Coaching en presentaill et en ligne'
           price='110€'
         />
-        <ServiceCard
+        <RateCard
           href='/'
           imageUrl='https://images.unsplash.com/photo-1522337360788-8b13dee7a37e'
           imageAlt="Arriere plan d'un salon de coiffure"
@@ -70,7 +70,7 @@ export default function TarifsPage() {
           description='Coaching en presentaill et en ligne'
           price='125€'
         />
-        <ServiceCard
+        <RateCard
           href='/'
           imageUrl='https://images.unsplash.com/photo-1522337360788-8b13dee7a37e'
           imageAlt="Arriere plan d'un salon de coiffure"
@@ -78,7 +78,7 @@ export default function TarifsPage() {
           description='Coaching en presentaill et en ligne'
           price='145€'
         />
-        <ServiceCard
+        <RateCard
           href='/'
           imageUrl='https://images.unsplash.com/photo-1522337360788-8b13dee7a37e'
           imageAlt="Arriere plan d'un salon de coiffure"
@@ -86,7 +86,7 @@ export default function TarifsPage() {
           description='Coaching en presentaill et en ligne'
           price='150€'
         />
-        <ServiceCard
+        <RateCard
           href='/'
           imageUrl='https://images.unsplash.com/photo-1522337360788-8b13dee7a37e'
           imageAlt="Arriere plan d'un salon de coiffure"
@@ -94,7 +94,7 @@ export default function TarifsPage() {
           description='Coaching en presentaill et en ligne'
           price='180€'
         />
-        <ServiceCard
+        <RateCard
           href='/'
           imageUrl='https://images.unsplash.com/photo-1522337360788-8b13dee7a37e'
           imageAlt="Arriere plan d'un salon de coiffure"
@@ -102,7 +102,7 @@ export default function TarifsPage() {
           description='Coaching en presentaill et en ligne'
           price='190€'
         />
-        <ServiceCard
+        <RateCard
           href='/'
           imageUrl='https://images.unsplash.com/photo-1522337360788-8b13dee7a37e'
           imageAlt="Arriere plan d'un salon de coiffure"

@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { Menu, X } from "lucide-react" // Icônes modernes
+import { Menu } from "lucide-react" // Icônes modernes
 import { Button } from "@/components/ui/button"
 import {
   Sheet,
@@ -28,7 +28,7 @@ export function Header() {
     <header className='fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm shadow-sm'>
       <div className='container mx-auto flex h-16 items-center justify-between px-4'>
         <Link href='/' className='text-xl font-bold'>
-          <span className='text-red-700'>NEF</span>
+          <span className='text-red-600'>NEF</span>
           <span className='text-green-800'>HAIRDYDY</span>
         </Link>
 
@@ -38,11 +38,11 @@ export function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className={`text-sm p-2 font-semibold transition-colors hover:text-red-700 ${
-                pathname === link.href ? "text-red-700" : "text-primary"
+              className={`text-sm p-2 font-semibold transition-colors hover:text-red-600 ${
+                pathname === link.href ? "text-red-600" : "text-primary"
               } ${
                 link.href === "/reserver-prestation"
-                  ? "bg-red-700 text-slate-50 hover:text-slate-50/80"
+                  ? "bg-red-600 text-slate-50 hover:text-slate-50/80 font-bold"
                   : ""
               }`}
             >
@@ -69,8 +69,8 @@ export function Header() {
                       className={`transition-colors hover:text-primary ${
                         pathname === link.href
                           ? link.href === "/reserver-prestation"
-                            ? "bg-red-700 text-slate-50"
-                            : "text-red-700"
+                            ? "bg-red-600 text-slate-50 font-bold"
+                            : "text-red-600"
                           : "text-muted-foreground"
                       }`}
                     >
