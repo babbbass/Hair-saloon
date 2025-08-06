@@ -17,7 +17,7 @@ export default function TarifsPage() {
         Coachings Capillaires
       </h3>
       <section className='grid gap-8 md:grid-cols-2'>
-        <ServiceCard
+        <RateCard
           href='/'
           imageUrl='https://images.unsplash.com/photo-1522337360788-8b13dee7a37e'
           imageAlt="Arriere plan d'un salon de coiffure"
@@ -25,7 +25,7 @@ export default function TarifsPage() {
           description='Coaching en presentaill et en ligne'
           price='85€'
         />
-        <ServiceCard
+        <RateCard
           href='/'
           imageUrl='https://images.unsplash.com/photo-1522337360788-8b13dee7a37e'
           imageAlt="Arriere plan d'un salon de coiffure"
