@@ -18,16 +18,16 @@ export default function TarifsPage() {
       </h3>
       <section className='grid gap-8 md:grid-cols-2'>
         <RateCard
-          href='/'
-          imageUrl='https://images.unsplash.com/photo-1522337360788-8b13dee7a37e'
+          href='/services/coaching-capillaires-presentiels'
+          imageUrl='https://www.nefhairdydy.com/wp-content/uploads/2023/10/Photos-coaching-NefHairDydy-2-1024x683.jpg'
           imageAlt="Arriere plan d'un salon de coiffure"
           title='Coachings en presentiels'
           description='Coaching en presentaill et en ligne'
           price='85€'
         />
         <RateCard
-          href='/'
-          imageUrl='https://images.unsplash.com/photo-1522337360788-8b13dee7a37e'
+          href='/services/coaching-capillaires-en-ligne'
+          imageUrl='https://www.nefhairdydy.com/wp-content/uploads/2023/10/IMG_8949-e1697107459184.jpg'
           imageAlt="Arriere plan d'un salon de coiffure"
           title='Coachings en ligne'
           description='Coaching en presentaill et en ligne'
@@ -40,7 +40,7 @@ export default function TarifsPage() {
       <section className='grid gap-8 md:grid-cols-2'>
         <RateCard
           href='/'
-          imageUrl='https://images.unsplash.com/photo-1522337360788-8b13dee7a37e'
+          imageUrl='https://www.nefhairdydy.com/wp-content/uploads/2024/11/nefhairdydy-prestation-enfant-03.jpeg'
           imageAlt="Arriere plan d'un salon de coiffure"
           title={`Rituel "Spécial Enfant" (à partir de 7 ans)`}
           description='Coaching en presentaill et en ligne'
@@ -48,7 +48,7 @@ export default function TarifsPage() {
         />
         <RateCard
           href='/'
-          imageUrl='https://images.unsplash.com/photo-1522337360788-8b13dee7a37e'
+          imageUrl='https://www.nefhairdydy.com/wp-content/uploads/2023/10/IMG_0165-scaled-2-2048x1750.jpg'
           imageAlt="Arriere plan d'un salon de coiffure"
           title={`Rituel "Découverte" (Soin classique 1er Rdv)`}
           description='Coaching en presentaill et en ligne'
@@ -56,7 +56,7 @@ export default function TarifsPage() {
         />
         <RateCard
           href='/'
-          imageUrl='https://images.unsplash.com/photo-1522337360788-8b13dee7a37e'
+          imageUrl='https://www.nefhairdydy.com/wp-content/uploads/2023/10/IMG_8949-e1697107459184.jpg'
           imageAlt="Arriere plan d'un salon de coiffure"
           title='Rituel “Retour au Naturel” (Bigchop)'
           description='Coaching en presentaill et en ligne'
@@ -64,7 +64,7 @@ export default function TarifsPage() {
         />
         <RateCard
           href='/'
-          imageUrl='https://images.unsplash.com/photo-1522337360788-8b13dee7a37e'
+          imageUrl='https://www.nefhairdydy.com/wp-content/uploads/2023/10/Modele-Coupes-NefHairDydy-29.jpg'
           imageAlt="Arriere plan d'un salon de coiffure"
           title='Rituel "Soin Exfoliant/Relaxant" (Pellicules et Desquamations)'
           description='Coaching en presentaill et en ligne'
@@ -72,7 +72,7 @@ export default function TarifsPage() {
         />
         <RateCard
           href='/'
-          imageUrl='https://images.unsplash.com/photo-1522337360788-8b13dee7a37e'
+          imageUrl='https://www.nefhairdydy.com/wp-content/uploads/2023/10/Modele-Coupes-NefHairDydy-1.jpg'
           imageAlt="Arriere plan d'un salon de coiffure"
           title='Rituel "Soin Suprême Vapeur" - Coupe des pointes'
           description='Coaching en presentaill et en ligne'
@@ -88,7 +88,7 @@ export default function TarifsPage() {
         />
         <RateCard
           href='/'
-          imageUrl='https://images.unsplash.com/photo-1522337360788-8b13dee7a37e'
+          imageUrl='https://www.nefhairdydy.com/wp-content/uploads/2023/10/Modele-Coupes-NefHairDydy-24.jpg'
           imageAlt="Arriere plan d'un salon de coiffure"
           title={`Rituel "Soin Suprême Vapeur" - Coupe de transformation ou de restructuration`}
           description='Coaching en presentaill et en ligne'
@@ -96,7 +96,7 @@ export default function TarifsPage() {
         />
         <RateCard
           href='/'
-          imageUrl='https://images.unsplash.com/photo-1522337360788-8b13dee7a37e'
+          imageUrl='https://www.nefhairdydy.com/wp-content/uploads/2023/10/IMG_8949-e1697107459184.jpg'
           imageAlt="Arriere plan d'un salon de coiffure"
           title={`Rituel "Coloration"`}
           description='Coaching en presentaill et en ligne'
@@ -104,7 +104,7 @@ export default function TarifsPage() {
         />
         <RateCard
           href='/'
-          imageUrl='https://images.unsplash.com/photo-1522337360788-8b13dee7a37e'
+          imageUrl='https://www.nefhairdydy.com/wp-content/uploads/2023/10/Modele-Coupes-NefHairDydy-24.jpg'
           imageAlt="Arriere plan d'un salon de coiffure"
           title={`Rituel “Coloration + Coupe“`}
           description='Coaching en presentaill et en ligne'
