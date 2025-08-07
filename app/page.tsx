@@ -7,7 +7,7 @@ export default function HomePage() {
   return (
     <>
       {/* Hero Section */}
-      <section className='relative h-screen flex items-center justify-center'>
+      <section className='relative h-screen flex items-center justify-center w-full'>
         <Image
           src='https://images.unsplash.com/photo-1522337360788-8b13dee7a37e'
           alt="Arrière-plan d'un salon de coiffure"
@@ -29,7 +29,7 @@ export default function HomePage() {
       </section>
 
       {/* Testimonials Section */}
-      <section className='py-20 bg-secondary'>
+      <section className='py-20 bg-secondary w-full'>
         <div className='container mx-auto px-4'>
           <div className='text-center mb-12'>
             <h2 className='text-3xl font-bold mb-2'>

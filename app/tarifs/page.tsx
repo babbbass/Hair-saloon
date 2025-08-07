@@ -48,7 +48,7 @@ export default function TarifsPage() {
         />
         <RateCard
           href='/'
-          imageUrl='https://www.nefhairdydy.com/wp-content/uploads/2023/10/IMG_0165-scaled-2-2048x1750.jpg'
+          imageUrl='https://www.nefhairdydy.com/wp-content/uploads/2023/10/Modele-Coupes-NefHairDydy-29-683x1024.jpg'
           imageAlt="Arriere plan d'un salon de coiffure"
           title={`Rituel "Découverte" (Soin classique 1er Rdv)`}
           description='Coaching en presentaill et en ligne'
@@ -56,7 +56,7 @@ export default function TarifsPage() {
         />
         <RateCard
           href='/'
-          imageUrl='https://www.nefhairdydy.com/wp-content/uploads/2023/10/IMG_8949-e1697107459184.jpg'
+          imageUrl='https://www.nefhairdydy.com/wp-content/uploads/2023/10/Modele-Coupes-NefHairDydy-1.jpg'
           imageAlt="Arriere plan d'un salon de coiffure"
           title='Rituel “Retour au Naturel” (Bigchop)'
           description='Coaching en presentaill et en ligne'
@@ -64,7 +64,7 @@ export default function TarifsPage() {
         />
         <RateCard
           href='/'
-          imageUrl='https://www.nefhairdydy.com/wp-content/uploads/2023/10/Modele-Coupes-NefHairDydy-29.jpg'
+          imageUrl='https://www.nefhairdydy.com/wp-content/uploads/2023/10/Modele-Coupes-NefHairDydy-24-683x1024.jpg'
           imageAlt="Arriere plan d'un salon de coiffure"
           title='Rituel "Soin Exfoliant/Relaxant" (Pellicules et Desquamations)'
           description='Coaching en presentaill et en ligne'
@@ -72,7 +72,7 @@ export default function TarifsPage() {
         />
         <RateCard
           href='/'
-          imageUrl='https://www.nefhairdydy.com/wp-content/uploads/2023/10/Modele-Coupes-NefHairDydy-1.jpg'
+          imageUrl='https://www.nefhairdydy.com/wp-content/uploads/2023/10/Modele-Coupes-NefHairDydy-25-1024x682.jpg'
           imageAlt="Arriere plan d'un salon de coiffure"
           title='Rituel "Soin Suprême Vapeur" - Coupe des pointes'
           description='Coaching en presentaill et en ligne'
@@ -80,7 +80,7 @@ export default function TarifsPage() {
         />
         <RateCard
           href='/'
-          imageUrl='https://images.unsplash.com/photo-1522337360788-8b13dee7a37e'
+          imageUrl='https://www.nefhairdydy.com/wp-content/uploads/2023/10/Modele-Coupes-NefHairDydy-5-683x1024.jpg'
           imageAlt="Arriere plan d'un salon de coiffure"
           title={`Rituel "Coupe de Transformation"`}
           description='Coaching en presentaill et en ligne'
@@ -88,7 +88,7 @@ export default function TarifsPage() {
         />
         <RateCard
           href='/'
-          imageUrl='https://www.nefhairdydy.com/wp-content/uploads/2023/10/Modele-Coupes-NefHairDydy-24.jpg'
+          imageUrl='https://www.nefhairdydy.com/wp-content/uploads/2023/10/Modele-Coupes-NefHairDydy-13-1024x683.jpg'
           imageAlt="Arriere plan d'un salon de coiffure"
           title={`Rituel "Soin Suprême Vapeur" - Coupe de transformation ou de restructuration`}
           description='Coaching en presentaill et en ligne'
@@ -96,7 +96,7 @@ export default function TarifsPage() {
         />
         <RateCard
           href='/'
-          imageUrl='https://www.nefhairdydy.com/wp-content/uploads/2023/10/IMG_8949-e1697107459184.jpg'
+          imageUrl='https://www.nefhairdydy.com/wp-content/uploads/2023/10/Modele-Coupes-NefHairDydy-28-683x1024.jpg'
           imageAlt="Arriere plan d'un salon de coiffure"
           title={`Rituel "Coloration"`}
           description='Coaching en presentaill et en ligne'
@@ -104,7 +104,7 @@ export default function TarifsPage() {
         />
         <RateCard
           href='/'
-          imageUrl='https://www.nefhairdydy.com/wp-content/uploads/2023/10/Modele-Coupes-NefHairDydy-24.jpg'
+          imageUrl='https://www.nefhairdydy.com/wp-content/uploads/2023/10/Modele-Coupes-NefHairDydy-2-8-683x1024.jpg'
           imageAlt="Arriere plan d'un salon de coiffure"
           title={`Rituel “Coloration + Coupe“`}
           description='Coaching en presentaill et en ligne'
