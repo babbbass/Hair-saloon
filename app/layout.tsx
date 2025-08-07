@@ -3,6 +3,7 @@ import { Montserrat } from "next/font/google"
 import "./globals.css"
 import { Header } from "@/components/Header"
 import { Footer } from "@/components/Footer"
+import { Toaster } from "@/components/ui/sonner"
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -27,6 +28,7 @@ export default function RootLayout({
         <main className='flex flex-col justify-center items-center pt-16 flex-1 w-full'>
           {" "}
           {children}
+          <Toaster />
         </main>
         <Footer />
       </body>
