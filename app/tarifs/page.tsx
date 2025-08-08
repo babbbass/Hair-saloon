@@ -4,7 +4,7 @@ export default function TarifsPage() {
   return (
     <div className='container mx-auto px-4 py-12'>
       <header className='text-center mb-12'>
-        <h1 className='text-4xl font-extrabold tracking-tight lg:text-5xl text-red-700'>
+        <h1 className='text-4xl font-bold tracking-tight lg:text-5xl text-titlecolor'>
           Nos Tarifs
         </h1>
         <p className='mt-4 text-lg text-muted-foreground'>
@@ -23,7 +23,7 @@ export default function TarifsPage() {
           imageAlt="Arriere plan d'un salon de coiffure"
           title='Coachings en presentiels'
           description='Coaching en presentaill et en ligne'
-          price='85€'
+          price={85}
         />
         <RateCard
           href='/services/coaching-capillaires-en-ligne'
@@ -31,7 +31,7 @@ export default function TarifsPage() {
           imageAlt="Arriere plan d'un salon de coiffure"
           title='Coachings en ligne'
           description='Coaching en presentaill et en ligne'
-          price='85€'
+          price={85}
         />
       </section>
       <h3 className='text-2xl font-bold mb-4 mt-12 text-green-700'>
@@ -43,8 +43,8 @@ export default function TarifsPage() {
           imageUrl='https://www.nefhairdydy.com/wp-content/uploads/2024/11/nefhairdydy-prestation-enfant-03.jpeg'
           imageAlt='Coiffure rituel special enfant'
           title={`Rituel "Spécial Enfant" (à partir de 7 ans)`}
+          price={70}
           description='Coaching en presentaill et en ligne'
-          price='70€'
         />
         <RateCard
           href='/services/rituel-decouverte'
@@ -52,7 +52,7 @@ export default function TarifsPage() {
           imageAlt='Coiffure rituel decouverte'
           title={`Rituel "Découverte" (Soin classique 1er Rdv)`}
           description='Coaching en presentaill et en ligne'
-          price='110€'
+          price={110}
         />
         <RateCard
           href='/services/rituel-retour-au-naturel-bigchop'
@@ -60,7 +60,7 @@ export default function TarifsPage() {
           imageAlt='Coiffure rituel retour au naturel bigchop'
           title='Rituel “Retour au Naturel” (Bigchop)'
           description='Coaching en presentaill et en ligne'
-          price='110€'
+          price={110}
         />
         <RateCard
           href='/services/rituel-soin-exfoliant-relaxant'
@@ -68,7 +68,7 @@ export default function TarifsPage() {
           imageAlt='Coiffure rituel soin exfoliant relaxant'
           title='Rituel "Soin Exfoliant/Relaxant" (Pellicules et Desquamations)'
           description='Coaching en presentaill et en ligne'
-          price='125€'
+          price={125}
         />
         <RateCard
           href='/services/rituel-soin-supreme-vapeur-coupe-des-pointes'
@@ -76,7 +76,7 @@ export default function TarifsPage() {
           imageAlt='Coiffure'
           title='Rituel "Soin Suprême Vapeur" - Coupe des pointes'
           description='Coaching en presentaill et en ligne'
-          price='145€'
+          price={145}
         />
         <RateCard
           href='/services/rituel-coupe-de-transformation-ou-mise-en-forme'
@@ -84,7 +84,7 @@ export default function TarifsPage() {
           imageAlt='Coiffure transformation ou mise en forme'
           title={`Rituel "Coupe de Transformation"`}
           description='Coaching en presentaill et en ligne'
-          price='150€'
+          price={150}
         />
         <RateCard
           href='/services/rituel-soin-supreme-vapeur-coupe-de-transformation'
@@ -92,7 +92,7 @@ export default function TarifsPage() {
           imageAlt='Coiffure rituel soin supreme vapeur coupe de transformation'
           title={`Rituel "Soin Suprême Vapeur" - Coupe de transformation ou de restructuration`}
           description='Coaching en presentaill et en ligne'
-          price='180€'
+          price={180}
         />
         <RateCard
           href='/services/rituel-coloration'
@@ -100,7 +100,7 @@ export default function TarifsPage() {
           imageAlt='nefhairdydy Coiffure rituel coloration'
           title={`Rituel "Coloration"`}
           description='Coaching en presentaill et en ligne'
-          price='190€'
+          price={190}
         />
         <RateCard
           href='/services/rituel-coloration-coupe'
@@ -108,7 +108,7 @@ export default function TarifsPage() {
           imageAlt='nefhairdydy Coiffure rituel coloration + coupe'
           title={`Rituel “Coloration + Coupe“`}
           description='Coaching en presentaill et en ligne'
-          price='250€'
+          price={250}
         />
         <RateCard
           href='/services/rituel-balayage'
@@ -116,7 +116,7 @@ export default function TarifsPage() {
           imageAlt='nefhairdydy Coiffure rituel balayage'
           title={`Rituel “Balayage“`}
           description='Coaching en presentaill et en ligne'
-          price='290€'
+          price={290}
         />
       </section>
     </div>
