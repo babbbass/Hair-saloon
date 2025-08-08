@@ -1,12 +1,12 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { ImageGallery } from "@/components/ImageGallery"
+import { TestimonialCard } from "@/components/TestimonialCard"
 
 export default function HomePage() {
   return (
     <>
-      {/* Hero Section */}
       <section className='relative h-screen flex items-center justify-center w-full'>
         <Image
           src='https://images.unsplash.com/photo-1522337360788-8b13dee7a37e'
@@ -27,12 +27,12 @@ export default function HomePage() {
           </Button>
         </div>
       </section>
-
+      <ImageGallery />
       {/* Testimonials Section */}
       <section className='py-20 bg-secondary w-full'>
         <div className='container mx-auto px-4'>
           <div className='text-center mb-12'>
-            <h2 className='text-3xl font-bold mb-2'>
+            <h2 className='text-3xl font-bold mb-2 text-green-700'>
               Ce que nos clients disent
             </h2>
             <p className='text-muted-foreground'>
@@ -40,17 +40,21 @@ export default function HomePage() {
             </p>
           </div>
           <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
-            <Card>
-              <CardHeader>
-                <CardTitle>Sophie L.</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className='text-muted-foreground'>
-                  {`Je suis cliente depuis 3 ans et je ne vais nulle part
+            <TestimonialCard
+              name='Sophie L.'
+              comment={`Je suis cliente depuis 3 ans et je ne vais nulle part
                   ailleurs. Leur expertise en coloration est incomparable.`}
-                </p>
-              </CardContent>
-            </Card>
+            />
+            <TestimonialCard
+              name='Sabrina.'
+              comment={`Coucou Dydy Juste un petit mot pour te dire que depuis lundi je me ballade fièrement avec mon afro bouclé et doré au boulot . Encore mille fois merci pour ton coup de ciseaux ta gentillesse ton oeil d'experte ....car comme on dit " i ' m feeling myself" Des bisous.`}
+            />
+            <TestimonialCard
+              name='Vanessa C.'
+              comment={`Bonjour Dydy, alors je t'envoie un petit retour, mon mari et mes enfants aiment beaucoup et les gens en général aussi. Moi j'aime beaucoup également mais je mis habitue doucement car c'est un vrai changement 😊 À bientôt, bonne journée et merci bcp.
+
+`}
+            />
           </div>
         </div>
       </section>
