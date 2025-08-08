@@ -1,6 +1,3 @@
-import Link from "next/link"
-import Image from "next/image"
-import { Button } from "@/components/ui/button"
 import { ImageGallery } from "@/components/ImageGallery"
 import { TestimonialCard } from "@/components/TestimonialCard"
 import { HeroSection } from "@/components/HeroSection"
@@ -17,7 +14,7 @@ export default function HomePage() {
       <section className='py-20 bg-secondary w-full'>
         <div className='container mx-auto px-4'>
           <div className='text-center mb-12'>
-            <h2 className='text-3xl font-bold mb-2 text-green-700'>
+            <h2 className='text-3xl font-bold mb-2 text-titlecolor'>
               Ce que nos clients disent
             </h2>
             <p className='text-muted-foreground'>

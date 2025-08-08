@@ -8,7 +8,7 @@ export function TestimonialCard({ name, comment }: TestimonialCardProps) {
   return (
     <Card>
       <CardHeader>
-        <CardTitle className='text-titlecolor'>{name}</CardTitle>
+        <CardTitle className='text-green-700 text-lg'>{name}</CardTitle>
       </CardHeader>
       <CardContent>
         <p className='text-muted-foreground'>{comment}</p>
