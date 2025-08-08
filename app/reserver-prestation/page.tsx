@@ -18,7 +18,7 @@ export default function page() {
       imageUrl:
         "https://www.nefhairdydy.com/wp-content/uploads/2023/10/IMG_0295-scaled-1-1024x710.jpg",
       imageAlt: "Personne recevant un coaching capillaire",
-      href: "/services-pages/coachings-capillaire/",
+      href: "/services/coachings-capillaire/",
       buttonText: "Voir les Coachings Capillaire",
       description: (
         <>
@@ -109,19 +109,16 @@ export default function page() {
 
       <div className='bg-white py-16 sm:py-24'>
         <div className='container mx-auto px-4'>
-          {/* Titre de la section */}
           <h2 className='text-3xl font-bold text-center text-gray-900 mb-12'>
             Choisis le type de prestation que tu veux réserver
           </h2>
 
-          {/* Grille responsive pour les cartes */}
           <div className='grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto'>
             {servicesData.map((service) => (
               <Card
                 key={service.title}
                 className='flex flex-col overflow-hidden rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300'
               >
-                {/* Image de la carte */}
                 <div className='relative w-full aspect-[4/3]'>
                   <Image
                     src={service.imageUrl}
@@ -131,7 +128,6 @@ export default function page() {
                   />
                 </div>
 
-                {/* Contenu de la carte (titre, description, bouton) */}
                 <div className='p-6 flex flex-col flex-grow'>
                   <CardHeader className='p-0'>
                     <CardTitle className='text-2xl font-bold text-gray-900'>
@@ -146,7 +142,7 @@ export default function page() {
                   <CardFooter className='p-0 pt-6 mt-auto'>
                     <Button
                       asChild
-                      className='w-full sm:w-auto transition-transform duration-200 hover:scale-105'
+                      className='w-full sm:w-auto transition-transform duration-200 hover:scale-105 bg-red-600 py-6 hover:bg-red-500 text-slate-50 text-lg font-bold'
                     >
                       <Link href={service.href}>{service.buttonText}</Link>
                     </Button>
