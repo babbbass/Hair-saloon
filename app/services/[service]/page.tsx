@@ -5,12 +5,12 @@ import { ServicesList } from "@/components/services/ServicesList"
 // import HowItWorksSection from "@/components/page/coaching/HowItWorksSection"
 // import TestimonialsSection from "@/components/page/coaching/TestimonialsSection"
 
-export default function ServicesPage({
-  params,
-}: {
-  params: { service: string }
-}) {
-  const { service } = params
+type ServicePageProps = {
+  params: Promise<{ service: string }>
+}
+
+export default async function ServicesPage({ params }: ServicePageProps) {
+  const { service } = await params
   return (
     <div className='bg-white text-gray-800'>
       <Hero service={service} />
