@@ -1,4 +1,6 @@
 export const NAME_SITE = "NefHairDydy"
+export const LOGO_URL =
+  "https://www.nefhairdydy.com/wp-content/uploads/2023/08/Nefhairdydy-Logo-complet-547x139-1.png"
 
 export const services = {
   "coaching-capillaires-presentiels": {

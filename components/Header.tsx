@@ -10,6 +10,8 @@ import {
   SheetTrigger,
   SheetClose,
 } from "@/components/ui/sheet"
+import { LOGO_URL } from "@/lib/constants"
+import Image from "next/image"
 
 const menuLinks = [
   { name: "Accueil", href: "/" },
@@ -28,8 +30,13 @@ export function Header() {
     <header className='fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm shadow-sm'>
       <div className='container mx-auto flex h-16 items-center justify-between px-4'>
         <Link href='/' className='text-xl font-bold'>
-          <span className='text-red-600'>NEF</span>
-          <span className='text-green-800'>HAIRDYDY</span>
+          <Image
+            src={LOGO_URL}
+            alt='Logo NefHairDydy'
+            width={150}
+            height={33}
+            className='object-contain self-start'
+          />
         </Link>
 
         {/* Desktop Navigation */}

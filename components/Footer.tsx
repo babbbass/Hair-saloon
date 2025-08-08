@@ -1,17 +1,22 @@
 import Link from "next/link"
 import { NewsletterSignup } from "@/components/NewsletterSignup"
+import { LOGO_URL } from "@/lib/constants"
+import Image from "next/image"
 
 export function Footer() {
   return (
     <footer className='bg-black text-white pb-12 md:px-20'>
       <NewsletterSignup />
       <div className='container mx-auto px-4 text-center'>
-        <p>
+        <p className='flex justify-center items-end'>
           © {new Date().getFullYear()}{" "}
-          <span className='uppercase font-semibold'>
-            <span className='text-red-700'>NEF</span>
-            <span className='text-green-800'>HAIRDYDY</span>
-          </span>{" "}
+          <Image
+            src={LOGO_URL}
+            alt='Logo NefHairDydy'
+            width={150}
+            height={13}
+            className='inline-block mx-2 mb-1'
+          />
           Tous droits réservés.
         </p>
         <div className='flex justify-center gap-4 mt-4'>

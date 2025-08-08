@@ -3,30 +3,15 @@ import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { ImageGallery } from "@/components/ImageGallery"
 import { TestimonialCard } from "@/components/TestimonialCard"
+import { HeroSection } from "@/components/HeroSection"
 
 export default function HomePage() {
   return (
     <>
       <section className='relative h-screen flex items-center justify-center w-full'>
-        <Image
-          src='https://images.unsplash.com/photo-1522337360788-8b13dee7a37e'
-          alt="Arrière-plan d'un salon de coiffure"
-          fill
-          className='object-cover -z-10'
-          priority
-        />
-        <div className='bg-background/90 p-8 rounded-lg shadow-lg text-center max-w-2xl mx-4'>
-          <h1 className='text-4xl md:text-5xl font-bold mb-4'>
-            {`L'art du cheveu sur mesure`}
-          </h1>
-          <p className='text-lg text-muted-foreground mb-6'>
-            Découvrez une expérience capillaire unique et personnalisée.
-          </p>
-          <Button asChild size='lg'>
-            <Link href='/contact'>Prendre rendez-vous</Link>
-          </Button>
-        </div>
+        <HeroSection />
       </section>
+
       <ImageGallery />
       {/* Testimonials Section */}
       <section className='py-20 bg-secondary w-full'>
@@ -54,6 +39,10 @@ export default function HomePage() {
               comment={`Bonjour Dydy, alors je t'envoie un petit retour, mon mari et mes enfants aiment beaucoup et les gens en général aussi. Moi j'aime beaucoup également mais je mis habitue doucement car c'est un vrai changement 😊 À bientôt, bonne journée et merci bcp.
 
 `}
+            />
+            <TestimonialCard
+              name='Melanie K.'
+              comment={`Merci pour ce super moment partagé, à très vite!`}
             />
           </div>
         </div>
