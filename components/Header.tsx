@@ -68,17 +68,17 @@ export function Header() {
               </Button>
             </SheetTrigger>
             <SheetContent side='right'>
-              <nav className='grid gap-6 text-lg font-medium mt-10'>
+              <nav className='grid gap-6 font-medium mt-10 p-4'>
                 {menuLinks.map((link) => (
                   <SheetClose asChild key={link.href}>
                     <Link
                       href={link.href}
-                      className={`transition-colors hover:text-primary ${
-                        pathname === link.href
-                          ? link.href === "/reserver-prestation"
-                            ? "bg-red-600 text-slate-50 font-bold"
-                            : "text-red-600"
-                          : "text-muted-foreground"
+                      className={`text-sm p-2 font-semibold transition-colors hover:text-red-600 ${
+                        pathname === link.href ? "text-red-600" : "text-primary"
+                      } ${
+                        link.href === "/reserver-prestation"
+                          ? "bg-red-600 text-slate-50 hover:text-slate-50/80 font-bold w-3/4 rounded-md mx-auto"
+                          : ""
                       }`}
                     >
                       {link.name}
