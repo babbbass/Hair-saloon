@@ -5,30 +5,27 @@ import Image from "next/image"
 
 export function Footer() {
   return (
-    <footer className='bg-black text-white pb-12 md:px-20'>
+    <footer className='bg-black text-white pb-12 md:px-20 mt-20 '>
       <NewsletterSignup />
-      <div className='container mx-auto px-4 text-center'>
-        <p className='flex justify-center items-end'>
+      <div className='container mx-auto px-4 text-center text-xs sm:text-base'>
+        <p className='flex justify-center items-center '>
           © {new Date().getFullYear()}{" "}
-          <Image
-            src={LOGO_URL}
-            alt='Logo NefHairDydy'
-            width={150}
-            height={13}
-            className='inline-block mx-2 mb-1'
-          />
+          <span className='uppercase mx-2 font-bold'>
+            <span className=' text-red-700'>Nef</span>
+            <span className=' text-green-700'>HairDydy</span>
+          </span>
           Tous droits réservés.
         </p>
         <div className='flex justify-center gap-4 mt-4'>
           <Link
             href='/mentions-legales'
-            className='text-sm hover:underline hover:text-red-600'
+            className='hover:underline hover:text-red-600'
           >
             Mentions Légales
           </Link>
           <Link
             href='/confidentialite'
-            className='text-sm hover:underline hover:text-red-600'
+            className='hover:underline hover:text-red-600'
           >
             Politique de confidentialité
           </Link>

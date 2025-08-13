@@ -71,7 +71,7 @@ export function ImageGallery() {
   // )
 
   return (
-    <div className='w-full py-16 pb-0 overflow-hidden mt-6'>
+    <div className='w-full py-16 pb-0 overflow-x-hidden mt-6'>
       <div className='text-center mb-12'>
         <h2 className='text-3xl md:text-4xl font-bold text-titlecolor'>
           Nos Réalisations
