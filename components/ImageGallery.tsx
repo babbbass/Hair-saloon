@@ -121,9 +121,9 @@ export function ImageGallery() {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <div className='flex justify-center gap-20 p-4 m-6'>
-          <CarouselPrevious className='static hidden sm:flex cursor-pointer bg-green-700 text-white hover:bg-white hover:text-green-700 size-12 text-lg border border-green-700' />
-          <CarouselNext className='static hidden sm:flex cursor-pointer bg-green-700 text-white hover:bg-white hover:text-green-700 size-12 text-lg border border-green-700' />
+        <div className='flex justify-center sm:gap-20 gap-10 sm:p-4 m-6'>
+          <CarouselPrevious className='static flex cursor-pointer bg-green-700 text-white hover:bg-white hover:text-green-700 size-10 sm:size-12 text-lg border border-green-700' />
+          <CarouselNext className='static flex cursor-pointer bg-green-700 text-white hover:bg-white hover:text-green-700 size-10 sm:size-12 text-lg border border-green-700' />
         </div>
       </Carousel>
     </div>
