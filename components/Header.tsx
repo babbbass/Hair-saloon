@@ -17,7 +17,7 @@ const menuLinks = [
   { name: "Accueil", href: "/" },
   { name: "À propos", href: "/about" },
   { name: "Services", href: "/services" },
-  { name: "Galerie", href: "/gallery" },
+  // { name: "Galerie", href: "/gallery" },
   { name: "Contact", href: "/contact" },
   { name: "Tarifs", href: "/tarifs" },
   { name: "Reservez maintenant", href: "/reserver-prestation" },
