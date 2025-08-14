@@ -32,7 +32,7 @@ export default function Services() {
           <h2 className='text-3xl font-bold mb-4 text-titlecolor'>
             Nos Services
           </h2>
-          <p className='max-w-2xl mx-auto text-muted-foreground'>
+          <p className='max-w-2xl mx-auto'>
             Une gamme complète pour sublimer votre chevelure.
           </p>
         </div>
@@ -44,12 +44,12 @@ export default function Services() {
               href={`/services/${service.slug}`}
               passHref
             >
-              <Card className='flex flex-col w-full bg-green-700 text-slate-50 hover:bg-green-800 cursor-pointer transition-all duration-200'>
+              <Card className='flex flex-col w-full hover:border-titlecolor hover:bg-red-200 cursor-pointer transition-all duration-200'>
                 <CardHeader>
-                  <div className='w-16 h-16 bg-slate-50 rounded-full flex items-center justify-center text-primary-foreground text-2xl mb-6'>
+                  <div className='w-16 h-16 bg-green-700 rounded-full flex items-center justify-center text-primary-foreground text-2xl mb-6'>
                     <i className={service.icon}></i>
                   </div>
-                  <CardTitle className='font-bold text-xl'>
+                  <CardTitle className='font-bold text-xl text-titlecolor'>
                     {service.title}
                   </CardTitle>
                 </CardHeader>
