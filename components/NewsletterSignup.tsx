@@ -51,7 +51,7 @@ export function NewsletterSignup() {
   }
 
   return (
-    <div className='bg-slate-50 dark:bg-slate-900/50 border rounded-lg p-8 md:p-12 -mt-12 mb-10 md:w-3/4 mx-auto'>
+    <div className='bg-slate-50 dark:bg-slate-900/50 border rounded-lg p-8 md:p-12 -mt-12 mb-10 md:w-3/4 sm:mx-auto mx-1'>
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 items-center'>
         <div>
           <h3 className='text-2xl md:text-3xl font-bold text-titlecolor'>

@@ -1,7 +1,5 @@
 import Link from "next/link"
 import { NewsletterSignup } from "@/components/NewsletterSignup"
-import { LOGO_URL } from "@/lib/constants"
-import Image from "next/image"
 
 export function Footer() {
   return (
@@ -16,18 +14,24 @@ export function Footer() {
           </span>
           Tous droits réservés.
         </p>
-        <div className='flex justify-center gap-4 mt-4'>
+        <div className='grid grid-cols-2 gap-4 mt-4'>
           <Link
             href='/mentions-legales'
             className='hover:underline hover:text-red-600'
           >
             Mentions Légales
           </Link>
+          <Link href='/a-propos' className='hover:underline hover:text-red-600'>
+            Qui sommes-nous ?
+          </Link>
           <Link
             href='/confidentialite'
             className='hover:underline hover:text-red-600'
           >
             Politique de confidentialité
+          </Link>
+          <Link href='/contact' className='hover:underline hover:text-red-600'>
+            Nous contacter
           </Link>
         </div>
       </div>
