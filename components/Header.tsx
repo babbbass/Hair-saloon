@@ -15,7 +15,7 @@ import Image from "next/image"
 
 const menuLinks = [
   { name: "Accueil", href: "/" },
-  { name: "À propos", href: "/about" },
+  { name: "À propos", href: "/a-propos" },
   { name: "Services", href: "/services" },
   // { name: "Galerie", href: "/gallery" },
   { name: "Contact", href: "/contact" },

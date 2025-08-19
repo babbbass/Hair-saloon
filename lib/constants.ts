@@ -206,3 +206,27 @@ Ce rituel vous permet de bénéficier, d'un soin complet et profond, pour vos ch
     ],
   },
 }
+
+export const teamMembers = [
+  {
+    name: "Elodie Durand",
+    role: "Fondatrice & Coiffeuse Experte",
+    bio: "Avec plus de 15 ans d'expérience, Elodie est spécialisée dans les coupes sur mesure et les transformations audacieuses. Sa vision artistique fait de chaque coupe une œuvre d'art.",
+    avatarSrc: "/team/elodie.jpg",
+    avatarFallback: "ED",
+  },
+  {
+    name: "Julien Mercier",
+    role: "Coloriste & Spécialiste Balayage",
+    bio: "Passionné par les jeux de lumière, Julien maîtrise l'art de la coloration. Que vous souhaitiez un balayage naturel ou une couleur vibrante, il saura illuminer votre chevelure.",
+    avatarSrc: "/team/julien.jpg",
+    avatarFallback: "JM",
+  },
+  {
+    name: "Chloé Dubois",
+    role: "Styliste & Experte Soins Capillaires",
+    bio: "Chloé est votre meilleure alliée pour des cheveux en pleine santé. Experte en rituels de soins profonds, elle saura vous conseiller pour sublimer la nature de vos cheveux.",
+    avatarSrc: "/team/chloe.jpg",
+    avatarFallback: "CD",
+  },
+]
