@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Politique de Confidentialité - Nef Hair Dydy",
+  title: "Politique de Confidentialité - NefHairDydy",
   description:
     "Consultez notre politique de confidentialité pour comprendre comment nous collectons, utilisons et protégeons vos données personnelles.",
 }
@@ -10,11 +10,10 @@ export default function Confidentialte() {
   return (
     <section className='pb-24 bg-background w-full'>
       <div className='mx-auto px-4 w-full'>
-        <h1 className='text-4xl bg-pink-200 font-bold mb-8 text-center py-20 w-full'>
+        <h1 className='container mx-auto text-4xl font-bold mb-8 text-center text-titlecolor py-20 w-full'>
           Politique de Confidentialité
         </h1>
 
-        {/* Introduction */}
         <p className='text-muted-foreground text-center mb-12'>
           Dernière mise à jour : 31 juillet 2025.
         </p>
@@ -29,7 +28,7 @@ export default function Confidentialte() {
           </p>
 
           <div className='pt-4'>
-            <h2 className='text-2xl font-semibold mb-4 border-b pb-2'>
+            <h2 className='text-2xl font-semibold mb-4 border-b pb-2 text-green-700'>
               1. Collecte et Utilisation des Données
             </h2>
             <p className='mb-4'>
@@ -57,7 +56,7 @@ export default function Confidentialte() {
           </div>
 
           <div className='pt-4'>
-            <h2 className='text-2xl font-semibold mb-4 border-b pb-2'>
+            <h2 className='text-2xl font-semibold mb-4 border-b pb-2 text-green-700'>
               2. Utilisation de vos informations
             </h2>
             <p className='mb-4'>
@@ -78,7 +77,7 @@ export default function Confidentialte() {
           </div>
 
           <div className='pt-4'>
-            <h2 className='text-2xl font-semibold mb-4 border-b pb-2'>
+            <h2 className='text-2xl font-semibold mb-4 border-b pb-2 text-green-700'>
               3. Partage des informations à des tiers
             </h2>
             <p>
@@ -91,7 +90,7 @@ export default function Confidentialte() {
           </div>
 
           <div className='pt-4'>
-            <h2 className='text-2xl font-semibold mb-4 border-b pb-2'>
+            <h2 className='text-2xl font-semibold mb-4 border-b pb-2 text-green-700'>
               4. Sécurité des données
             </h2>
             <p>
@@ -104,7 +103,7 @@ export default function Confidentialte() {
           </div>
 
           <div className='pt-4'>
-            <h2 className='text-2xl font-semibold mb-4 border-b pb-2'>
+            <h2 className='text-2xl font-semibold mb-4 border-b pb-2 text-green-700'>
               5. Cookies
             </h2>
             <p>
@@ -117,7 +116,7 @@ export default function Confidentialte() {
           </div>
 
           <div className='pt-4'>
-            <h2 className='text-2xl font-semibold mb-4 border-b pb-2'>
+            <h2 className='text-2xl font-semibold mb-4 border-b pb-2 text-green-700'>
               6. Consentement
             </h2>
             <p>
@@ -127,7 +126,7 @@ export default function Confidentialte() {
           </div>
 
           <div className='pt-4'>
-            <h2 className='text-2xl font-semibold mb-4 border-b pb-2'>
+            <h2 className='text-2xl font-semibold mb-4 border-b pb-2 text-green-700'>
               7. Nous contacter
             </h2>
             <p>

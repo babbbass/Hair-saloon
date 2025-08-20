@@ -17,20 +17,26 @@ export function Footer() {
         <div className='grid grid-cols-2 gap-4 mt-4'>
           <Link
             href='/mentions-legales'
-            className='hover:underline hover:text-red-600'
+            className='hover:underline hover:text-red-600 transition-all duration-300'
           >
             Mentions Légales
           </Link>
-          <Link href='/a-propos' className='hover:underline hover:text-red-600'>
+          <Link
+            href='/a-propos'
+            className='hover:underline hover:text-red-600 transition-all duration-300'
+          >
             Qui sommes-nous ?
           </Link>
           <Link
             href='/confidentialite'
-            className='hover:underline hover:text-red-600'
+            className='hover:underline hover:text-red-600 transition-all duration-300'
           >
             Politique de confidentialité
           </Link>
-          <Link href='/contact' className='hover:underline hover:text-red-600'>
+          <Link
+            href='/contact'
+            className='hover:underline hover:text-red-600 transition-all duration-300'
+          >
             Nous contacter
           </Link>
         </div>

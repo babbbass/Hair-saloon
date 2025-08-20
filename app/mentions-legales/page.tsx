@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Mentions Légales - Nef Hair Dydy",
+  title: "Mentions Légales - NefHairDydy",
   description:
     "Consultez les mentions légales de NefHairDydy, incluant les informations sur l'éditeur du site et l'hébergeur.",
 }
@@ -10,13 +10,13 @@ export default function MentionsLegales() {
   return (
     <section className='pb-24 w-full bg-background'>
       <div className=' w-full mx-auto max-w-6xl min-w-full'>
-        <h1 className='text-4xl font-bold mb-12 py-20 text-center bg-pink-200 w-full'>
+        <h1 className='container mx-auto text-4xl font-bold mb-12 py-20 text-center text-titlecolor'>
           Mentions Légales
         </h1>
 
         <div className='container px-4 space-y-10 text-lg leading-relaxed  mx-auto'>
           <div>
-            <h2 className='text-2xl font-semibold mb-4 border-b pb-2'>
+            <h2 className='text-2xl font-semibold mb-4 border-b pb-2 text-green-700'>
               1. Éditeur du site
             </h2>
             <div className='space-y-2 text-muted-foreground'>
@@ -50,7 +50,7 @@ export default function MentionsLegales() {
           </div>
 
           <div>
-            <h2 className='text-2xl font-semibold mb-4 border-b pb-2'>
+            <h2 className='text-2xl font-semibold mb-4 border-b pb-2 text-green-700'>
               2. Hébergement
             </h2>
             <div className='space-y-2 text-muted-foreground'>
@@ -70,7 +70,7 @@ export default function MentionsLegales() {
           </div>
 
           <div>
-            <h2 className='text-2xl font-semibold mb-4 border-b pb-2'>
+            <h2 className='text-2xl font-semibold mb-4 border-b pb-2 text-green-700'>
               3. Propriété Intellectuelle
             </h2>
             <p className='text-muted-foreground'>
@@ -79,7 +79,7 @@ export default function MentionsLegales() {
           </div>
 
           <div>
-            <h2 className='text-2xl font-semibold mb-4 border-b pb-2'>
+            <h2 className='text-2xl font-semibold mb-4 border-b pb-2 text-green-700'>
               4. Limitation de responsabilité
             </h2>
             <p className='text-muted-foreground'>
@@ -88,7 +88,7 @@ export default function MentionsLegales() {
           </div>
 
           <div>
-            <h2 className='text-2xl font-semibold mb-4 border-b pb-2'>
+            <h2 className='text-2xl font-semibold mb-4 border-b pb-2 text-green-700'>
               5. Droit applicable
             </h2>
             <p className='text-muted-foreground'>
