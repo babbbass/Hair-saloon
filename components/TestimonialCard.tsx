@@ -6,7 +6,7 @@ type TestimonialCardProps = {
 }
 export function TestimonialCard({ name, comment }: TestimonialCardProps) {
   return (
-    <Card>
+    <Card className='hover:bg-green-100 transition-all duration-300'>
       <CardHeader>
         <CardTitle className='text-green-700 text-lg'>{name}</CardTitle>
       </CardHeader>

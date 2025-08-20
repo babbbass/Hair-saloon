@@ -71,7 +71,7 @@ export function ImageGallery() {
   // )
 
   return (
-    <div className='w-full py-16 pb-0 overflow-x-hidden mt-6'>
+    <div className='w-full py-12 pb-0 overflow-x-hidden mt-6'>
       <div className='text-center mb-12'>
         <h2 className='text-3xl md:text-4xl font-bold text-titlecolor'>
           Nos Réalisations
@@ -98,7 +98,7 @@ export function ImageGallery() {
               className='basis-full sm:basis-1/2 md:basis-1/3 lg:basis-1/4'
             >
               <div className='p-1'>
-                <Card className='overflow-hidden group'>
+                <Card className='overflow-hidden group '>
                   <CardContent className='relative flex aspect-[3/4] items-center justify-center p-0'>
                     <Image
                       src={item.imageUrl}

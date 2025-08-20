@@ -60,16 +60,16 @@ export function HeroSection() {
 
   return (
     <>
-      <section className='py-12 md:py-20 w-full bg-gray-100 md:bg-transparent'>
+      <section className='py-1 w-full bg-gray-100 md:bg-transparent'>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:gap-1 overflow-hidden items-center justify-center'>
           <div className='relative w-full h-80 md:h-200'>
-            <Image
+            {/* <Image
               src={LOGO_URL}
               alt='Logo NefHairDydy'
               width={150}
               height={63}
               className='md:object-contain md:self-start ml-2 md:hidden'
-            />
+            /> */}
             <div className='relative w-full h-full left-[21%] md:left-0'>
               <Image
                 src='https://www.nefhairdydy.com/wp-content/uploads/2023/10/Dydy-02-683x1024.png'
